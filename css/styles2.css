@@ -90,7 +90,15 @@
     scroll-behavior: smooth;
   }
 }
-
+.image-box{
+	display:inline-block;
+	gap:10px;
+	flex-wrap:wrap;
+}
+.image-box img{
+	max-width:48%;
+	height:auto;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -886,7 +894,7 @@ progress {
 
 .g-5,
 .gx-5 {
-  --bs-gutter-x: 3rem;
+  --bs-gutter-x: 5rem;
 }
 
 .g-5,
@@ -7754,8 +7762,8 @@ textarea.form-control-lg {
 }
 
 .px-5 {
-  padding-right: 3rem !important;
-  padding-left: 3rem !important;
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
 }
 
 .py-0 {
