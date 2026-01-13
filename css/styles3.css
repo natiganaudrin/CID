@@ -1297,7 +1297,7 @@ progress {
     width: 41.66666667%;
   }
   .col-lg-6 {
-    flex: 0 0 auto;
+    flex: 10px 10px auto;
     width: 50%;
   }
   .col-lg-7 {
@@ -10873,7 +10873,7 @@ header.masthead {
   overflow: hidden;
   width:100%;
   height:100vh;  
-  background: url('../04.jpeg');
+  background: url('../05.jpeg');
   /* padding-top: calc(7rem + 72px); */
   /* padding-bottom: 7rem; */
   /* background: linear-gradient(0deg, #0dcaf0 0%, #6610f2 100%); */
